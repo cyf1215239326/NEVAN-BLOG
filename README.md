@@ -5,4 +5,4 @@ hexo clean/cl
 
 hexo generate/g
 
-hexo server/s  #预览
+hexo server/s  // 预览
