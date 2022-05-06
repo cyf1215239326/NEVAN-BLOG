@@ -1,6 +1,6 @@
 # NEVAN-BLOG
 Nevan's blog
-
+```js
 hexo clean/cl
 
 hexo generate/g
