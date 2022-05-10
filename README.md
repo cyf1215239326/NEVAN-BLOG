@@ -1,8 +1,8 @@
 # NEVAN-BLOG
 Nevan's blog
 ```js
-hexo clean/cl
+hexo clean // 或者 hexo cl
 
-hexo generate/g
+hexo generate // 或者 hexo g
 
-hexo server/s  // 预览
+hexo server  // 或者 hexo s  预览
