@@ -31,24 +31,24 @@ D:\blog\nevan-blog>
 
 并且上传到仓库的文件夹是空的
 
-1. #### 先强行删除 clone 来的目录下面的.git 文件
+#### 1. 先强行删除 clone 来的目录下面的.git 文件
 
    删除方式：在该目录下打开命令行工具，执行`rd /s/q .git`
    删除成功后执行`ls .git`命令查看是否删除成功
 
-2. #### 回到仓库根目录删除仓库中的空文件夹
+#### 2. 回到仓库根目录删除仓库中的空文件夹
 
    - `git rm -r --cached "themes/matery"`
    - `git commit -m "remove empty folder"`
    - `git push origin master`
 
-3. #### 在仓库根目录删除仓库中的空文件夹\
+#### 3. 在仓库根目录删除仓库中的空文件夹
 
    - `git add .`
    - `git commit -m "remove empty folder"`
    - `git push origin master`
 
-4. #### 在仓库根目录重新提交代码
+#### 4. 在仓库根目录重新提交代码
 
    - `git add .`
    - `git commit -m "repush"`
