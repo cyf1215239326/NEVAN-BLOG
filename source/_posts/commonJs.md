@@ -12,7 +12,7 @@ tags:
 	- javascript
 	- nodeJs
 	- 模块化
-categories: javascript
+categories: Javascript
 ---
 ### CommonJS
 长久以来Javascript都不支持模块化，但随着前端工程越来越庞大、复杂，模块的需求也越来越高。为此，社区推出了各种模块化的实现和规范，比如AMD规范、CMD规范和CommonJs规范等。Node.js使用的CommonJs规范，它通过module.export导出模块。演示代码如下：

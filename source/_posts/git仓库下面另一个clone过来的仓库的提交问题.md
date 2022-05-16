@@ -12,7 +12,7 @@ tags:
 	- blog
 	- 搭建
 	- git
-categories: hexo
+categories: Hexo
 ---
 
 如果你的 git 仓库下面还有另外的 clone 过来的仓库，那么在你正常的提交代码时`git commit`的时候一定会出现如下图的错误
