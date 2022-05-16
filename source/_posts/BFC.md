@@ -135,7 +135,7 @@ BFC 的范围
 </html>
 ```
 
-![img](BFC/BFC1.png)
+![img](BFC1.png)
 
 在这个例子中，构建出BFC的只有class名为green的盒子（浮动元素）
 
@@ -153,7 +153,7 @@ green盒子由于浮动，脱离普通文档流,形成浮动流。他好像跟�
   overflow: hidden;
 }
 ```
-![img](BFC/BFC2.png)
+![img](BFC2.png)
 
 还记得BFC的特性吗？当我们计算BFC的高度时，浮动子元素也参与计算。这样一来我们就能灰色盒子的高度被绿色盒子撑开了。
 
@@ -171,7 +171,7 @@ green盒子由于浮动，脱离普通文档流,形成浮动流。他好像跟�
   overflow: hidden;
 }
 ```
-![img](BFC/BFC3.png)
+![img](BFC3.png)
 
 我们将红色盒子也构建出BFC，根据特性，形成BFC区域与float box不会发生重叠。于是这里红色成功“接受”了绿色盒子。
 
