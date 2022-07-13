@@ -74,16 +74,15 @@ JWT 的 payload 使用的是 base64 编码的，因此在 JWT 中不能存储敏
 ### JWT 所需依赖
 
 ```xml
-
 <dependency>
-<groupId>com.auth0</groupId>
-<artifactId>java-jwt</artifactId>
-<version>3.10.3</version>
+    <groupId>com.auth0</groupId>
+    <artifactId>java-jwt</artifactId>
+    <version>3.10.3</version>
 </dependency>
 
 ```
 
-### JWT工具类
+### JWT 工具类
 
 ```java
 public class JWTUtil {
@@ -132,7 +131,7 @@ public class JWTUtil {
         return JSON.parseObject(tokenInfo, UserTokenDTO.class);
     }
 }
-````
+```
 
 #### 说明：
 
